@@ -1,0 +1,142 @@
+/*
+font-family: 'Open Sans', sans-serif;
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,700;1,800&display=swap');
+</style>
+*/
+/* general */
+body{ 
+    background: url(./images/background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header{
+    margin-bottom: 1em;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 3px 3px #999999;
+}
+.horizontal {
+    /*flex-direction:row;*/
+}
+span.span-info{
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+    position: relative;
+    /*bottom: 1em;*/
+    bottom: 20px;
+}
+dl{
+    padding: 0 15px;
+    font-weight: bold;
+}
+dt{
+    margin-top: 15px;
+}
+dd{
+    font-size: 12px;
+}
+.links-table{
+    padding-left: 0;
+}
+.colon-7 p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}   
+.colon-7 p.quotebubble{
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 1em;
+    line-height: 2;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    background-color: #ffffff;
+}
+span.publication{
+    font-style: italic;
+    margin-left: 38px;
+}
+/* horizontalni razmak ikonice je 5px sa obe strane*/
+.colon-7 p img{
+    margin: 5px 0;
+    margin-bottom: -10px;
+}
+/*.flex-container{
+    width: 100%;
+    float: left;
+    padding: 0 20%;
+}
+.vertical {
+    flex-direction:column;
+}*/
+/*ovaj div je roditeljski u odnosu na flex-container
+i width je 100%*/
+.field{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+/*ovaj div je child od field i ako 100% ima padding 22.5% 
+kontejner flex-container je width 55% (100-(22.5*2)= 55)*/
+.flex-container{
+    margin: 0 auto;
+    padding-left: 22.5%;
+    padding-right: 22.5%;
+}
+.row{
+    position: relative;
+    float: left;
+    width: 100%;
+    display: flex;
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(144,145,142,1);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(144,145,142,1);
+    box-shadow: 5px 0px 5px 0px rgba(144,145,142,1);
+}
+.flex-container.vertical{
+
+}
+/*ova dva elementa ce zahvaljujuci float left podeliti povrsinu na
+30 i 70 procenata u odnosu na 100% povrsine roditeljskog diva flex-container*/
+.colon-3{
+    float: left;
+    width: 30%;
+    background-color: #A2B964;
+    /*padding-left: 15px;*/
+}
+.row-2 img,
+.row-2{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.colon-7{
+    float: left;
+    width: 70%;
+    background-image: url("images/rbg.png");
+    background-repeat: repeat-x;
+    background-color: #EEEEEE;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+footer{
+    float: left;
+    width: 100%;
+    background-color: #A2B964;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(144,145,142,1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(144,145,142,1);
+    box-shadow: 5px 5px 5px 0px rgba(144,145,142,1);
+    padding: 0.5em 0;
+    text-align: center;
+}
