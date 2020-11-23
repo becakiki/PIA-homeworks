@@ -1,0 +1,111 @@
+/*
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+*/
+
+/* General */
+a{
+    font-weight: bold;
+}
+.card-header.info-color.white-text.text-center.py-4{
+    margin-bottom: 20px;
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+.navbar{
+    position: fixed;
+    /*position: static;*/
+    position: -webkit-sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #4f1c08 !important;
+    /*    border: 2px solid #4CAF50;*/
+}
+main,
+header{
+    float: left;
+    width: 100%;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.slider-header .carousel-item img,
+.slider-header .carousel-item,
+.slider-header{
+    /*height: 700px;*/
+    height: auto;
+    width: auto;
+    object-fit: unset !important;   
+    max-width: 100%;
+}
+main h1{
+    padding: 20px 0;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.o-nama{
+    margin-bottom: 60px;
+}
+.col-md-7.order-md-2 p,
+.col-md-7.order-md-2 h2{
+    text-align: left;
+}
+.col-md-7.order-md-2 button{
+    float: left;
+    margin-right: 20px;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+        rgba(0, 0, 0, .2),
+        rgba(0, 0, 0, .2) 30%,
+        rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+        inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+        inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.order{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+}
+input[type="number"]{
+    border-radius: 10px;
+    width: 150px;
+    border-color: forestgreen;
+    font-size: 18px;
+    text-align: center;
+    color: gray;
+}
+.md-form{
+    margin-top: 40px;
+}
