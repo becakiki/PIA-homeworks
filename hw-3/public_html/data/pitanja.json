@@ -1,0 +1,21 @@
+[
+    {
+        "unosOdgovora": false,
+        "pitanje": "Tekst pitanja",
+        "odgovor": [
+            {
+                "tacan": true,
+                "tekst": "123"
+            },
+            {
+                "tacan": false,
+                "tekst": "456"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Tekst pitanja sa unosom",
+        "odgovor": "Ovo je tacan odgovor"
+    }
+]
