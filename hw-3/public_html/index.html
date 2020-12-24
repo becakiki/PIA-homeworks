@@ -45,13 +45,38 @@
                         $("#pravilaModal").modal("toggle");
                         imeIgraca = $("#ime").val();
                         tacniOdgovori = 0;
+                        setTimeout(function() {$("#pitanja").fadeIn()}, 500);
+                    }
+                });
+                
+                $("#btn_odgovori").on("click", function(event) {
+                    console.log($(this).parent().parent().find("input[data-tacno='true']"));
+                    
+                    $(this).next().addClass("disabled")
+                    $(this).addClass("disabled");
+                    $(this).parent().parent().find("label").addClass("disabled");
+                    
+                    if($(this).parent().parent().find("input[name='odgovor']:checked").data("tacno")) {
+                        $(this).parent().parent().parent().addClass("border-success");
+                        $(this).parent().parent().prev().addClass("text-success");
+                        $(this).parent().children("#poruka").addClass("text-success");
+                        $(this).parent().children("#poruka").html("Tačan odgovor!");
+                        $(this).parent().parent().find("input[data-tacno='true']").parent().removeClass("disabled");
+                        $(this).parent().parent().find("input[data-tacno='true']").parent().removeClass("btn-light");
+                        $(this).parent().parent().find("input[data-tacno='true']").parent().addClass("btn-success");
+                    }
+                    else {
+                        $(this).parent().parent().parent().addClass("border-danger");
+                        $(this).parent().parent().prev().addClass("text-danger");
+                        $(this).parent().children("#poruka").addClass("text-danger");
+                        $(this).parent().children("#poruka").html("Netačan odgovor!");
                     }
                 });
             });
         </script>
     </head>
     <body>
-        <div class="pocetak text-center">
+        <div class="pocetak text-center" style="display: none;">
             <h1 class="h3 mb-3">Unesite vaše ime</h1>
             <input id="ime" class="form-control" placeholder="Vaše ime" required autofocus>
             <button type="button" class="w-100 btn btn-lg btn-primary" id="btn_start" style="margin-top: 20px" data-toggle="modal" data-target="#pravilaModal" disabled>Start</button>
@@ -83,8 +108,39 @@
         </div>
 
         <!--Pitanja -->
-        <div id="pitanja" style="display: none;">
-            
+        <!--<div id="pitanja" class="w-75 mx-auto" style="display: none;">-->
+        <div id="pitanja" class="w-75 mx-auto">
+            <div class="card" id="pitanje1">
+                <!--<h3 class="card-header">Pitanje 1</h3>-->
+                <div class="card-header">
+                    <h3 style="float: left;">Pitanje 1</h3>
+                    <h4 id="vreme" class="pt-1" style="float: right;">0:20</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Tekst pitanja</h5>
+                    <div class="btn-group-toggle text-center" id="odgovori" data-toggle="buttons">
+                        <label class="btn btn-light border-dark m-1">
+                            <input type="radio" name="odgovor" data-tacno="false" id="option1">Odgovor 1
+                        </label>
+                        <label class="btn btn-light border-dark m-1">
+                            <input type="radio" name="odgovor" data-tacno="true" id="option2">Odgovor 2
+                        </label>
+                        <label class="btn btn-light border-dark m-1">
+                            <input type="radio" name="odgovor" data-tacno="false" id="option3">Odgovor 3
+                        </label>
+                    </div>
+                    
+                    <div id="odgovori_unos">
+                        <input type="text" class="form-control mt-1" id="odgovor_unos" placeholder="Unesite vaš odgovor">
+                    </div>
+                    
+                    <div class="mt-4">
+                        <a id="btn_odgovori" class="btn btn-primary text-white float-right">Odgovori</a>
+                        <a id="btn_preskoci" class="btn btn-secondary text-white float-left">Preskoči pitanje</a>
+                        <div id="poruka" class="float-right mr-3 pt-2"></div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
