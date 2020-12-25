@@ -1,21 +1,434 @@
 [
     {
         "unosOdgovora": false,
-        "pitanje": "Tekst pitanja",
+        "pitanje": "2 + 2 / 2 je:",
         "odgovor": [
             {
                 "tacan": true,
-                "tekst": "123"
+                "tekst": "3"
             },
             {
                 "tacan": false,
-                "tekst": "456"
+                "tekst": "2"
+            },
+            {
+                "tacan": false,
+                "tekst": "4"
+            },
+            {
+                "tacan": false,
+                "tekst": "1"
             }
         ]
     },
     {
         "unosOdgovora": true,
-        "pitanje": "Tekst pitanja sa unosom",
-        "odgovor": "Ovo je tacan odgovor"
+        "pitanje": "Koji je poštanski broj za grad Paraćin?",
+        "odgovor": "35250"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koliko sezona ima serija La Casa de Papel?",
+        "odgovor": [
+            {
+                "tacan": false,
+                "tekst": "1"
+            },
+            {
+                "tacan": true,
+                "tekst": "4"
+            },
+            {
+                "tacan": false,
+                "tekst": "2"
+            },
+            {
+                "tacan": false,
+                "tekst": "5"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Koji je najveći organ u ljudskom organizmu?",
+        "odgovor": "Koža"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koje godine je počeo Prvi svetski rat?",
+        "odgovor": [
+            {
+                "tacan": false,
+                "tekst": "1915"
+            },
+            {
+                "tacan": true,
+                "tekst": "1914"
+            },
+            {
+                "tacan": false,
+                "tekst": "1917"
+            },
+            {
+                "tacan": false,
+                "tekst": "1918"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Koja je najveća planeta Sunčevog sistema?",
+        "odgovor": "Jupiter"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koje godine je umro Josip Broz Tito?",
+        "odgovor": [
+            {
+                "tacan": true,
+                "tekst": "1980"
+            },
+            {
+                "tacan": false,
+                "tekst": "1990"
+            },
+            {
+                "tacan": false,
+                "tekst": "1985"
+            },
+            {
+                "tacan": false,
+                "tekst": "1981"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Najviši planinski vrh na svetu je?",
+        "odgovor": "Mont Everest"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koliko 1m3 ima litara?",
+        "odgovor": [
+            {
+                "tacan": false,
+                "tekst": "10000"
+            },
+            {
+                "tacan": false,
+                "tekst": "100"
+            },
+            {
+                "tacan": true,
+                "tekst": "1000"
+            },
+            {
+                "tacan": false,
+                "tekst": "10"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Koja je normalna temperatura ljudskog organizma u stepenima Celzijusovim?",
+        "odgovor": "37"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koja je najupadljivija, velika organela eukariotskih ćelija?",
+        "odgovor": [
+            {
+                "tacan": false,
+                "tekst": "Mitohondrije"
+            },
+            {
+                "tacan": true,
+                "tekst": "Jedro"
+            },
+            {
+                "tacan": false,
+                "tekst": "Ribozom"
+            },
+            {
+                "tacan": false,
+                "tekst": "Lizozom"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Na svakih koliko godina Halleyeva kometa prođe pored Zemlje?",
+        "odgovor": "75"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koliko strana ima kocka?",
+        "odgovor": [
+            {
+                "tacan": false,
+                "tekst": "5"
+            },
+            {
+                "tacan": false,
+                "tekst": "7"
+            },
+            {
+                "tacan": true,
+                "tekst": "6"
+            },
+            {
+                "tacan": false,
+                "tekst": "4"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Koja je jedinica mere jačine električne struje?",
+        "odgovor": "Amper"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koji okean je najveći na svetu?",
+        "odgovor": [
+            {
+                "tacan": false,
+                "tekst": "Atlantski"
+            },
+            {
+                "tacan": false,
+                "tekst": "Indijski"
+            },
+            {
+                "tacan": true,
+                "tekst": "Tihi"
+            },
+            {
+                "tacan": false,
+                "tekst": "Severni ledeni"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Koja je najduža reka na svetu?",
+        "odgovor": "Amazon"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koliko iznosi brzina svetlosti?",
+        "odgovor": [
+            {
+                "tacan": false,
+                "tekst": "300 000 m/s"
+            },
+            {
+                "tacan": false,
+                "tekst": "150 000 km/s"
+            },
+            {
+                "tacan": false,
+                "tekst": "100 000 km/s"
+            },
+            {
+                "tacan": true,
+                "tekst": "300 000 km/s"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Koja je najnaseljenija zemlja na svetu?",
+        "odgovor": "Kina"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koliko čovek ima stalnih zuba?",
+        "odgovor": [
+            {
+                "tacan": false,
+                "tekst": "28"
+            },
+            {
+                "tacan": true,
+                "tekst": "32"
+            },
+            {
+                "tacan": false,
+                "tekst": "30"
+            },
+            {
+                "tacan": false,
+                "tekst": "29"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Koliko procenata ljudi na svetu je levoruko?",
+        "odgovor": "10"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koji brend kozmetike među ponuđenim je najskuplji?",
+        "odgovor": [
+            {
+                "tacan": false,
+                "tekst": "Mazbelline"
+            },
+            {
+                "tacan": false,
+                "tekst": "Loreal"
+            },
+            {
+                "tacan": true,
+                "tekst": "Chanel"
+            },
+            {
+                "tacan": false,
+                "tekst": "Essence"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Koliko kostiju ukupno ima ljudsko telo?",
+        "odgovor": "206"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koje godine je osnovana Coca-Cola?",
+        "odgovor": [
+            {
+                "tacan": true,
+                "tekst": "1886"
+            },
+            {
+                "tacan": false,
+                "tekst": "1887"
+            },
+            {
+                "tacan": false,
+                "tekst": "1889"
+            },
+            {
+                "tacan": false,
+                "tekst": "1991"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Koja zemlja je pobedila na prvom održanom Svetskom prvenstvu u fudbalu?",
+        "odgovor": "Urugvaj"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koja životinja može najviše izdržati bez vode?",
+        "odgovor": [
+            {
+                "tacan": false,
+                "tekst": "Kamila"
+            },
+            {
+                "tacan": false,
+                "tekst": "Slon"
+            },
+            {
+                "tacan": false,
+                "tekst": "Lav"
+            },
+            {
+                "tacan": true,
+                "tekst": "Žirafa"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Koja je najčešća krvna grupa u svetu?",
+        "odgovor": "Nulta"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koje godine je osnovana kompanija Microsoft?",
+        "odgovor": [
+            {
+                "tacan": false,
+                "tekst": "1978"
+            },
+            {
+                "tacan": true,
+                "tekst": "1975"
+            },
+            {
+                "tacan": false,
+                "tekst": "1977"
+            },
+            {
+                "tacan": false,
+                "tekst": "1972"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Kako se zove osnovna jedinica građe svih organizama?",
+        "odgovor": "Ćelija"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Mešanjem koje dve boje dobijamo narandžastu boju?",
+        "odgovor": [
+            {
+                "tacan": false,
+                "tekst": "Plava-bela"
+            },
+            {
+                "tacan": true,
+                "tekst": "Žuta-crvena"
+            },
+            {
+                "tacan": false,
+                "tekst": "Crvena-crna"
+            },
+            {
+                "tacan": false,
+                "tekst": "Zelena-Žuta"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "Za koju Životinju se kaže da je 'kralj' životinja?",
+        "odgovor": "Lav"
+    },
+    {
+        "unosOdgovora": false,
+        "pitanje": "Koja od navedenih marki nije marka prehrambenih proizvoda?",
+        "odgovor": [
+            {
+                "tacan": false,
+                "tekst": "Danubius"
+            },
+            {
+                "tacan": true,
+                "tekst": "Persil"
+            },
+            {
+                "tacan": false,
+                "tekst": "Carnex"
+            },
+            {
+                "tacan": false,
+                "tekst": "Yuhor"
+            }
+        ]
+    },
+    {
+        "unosOdgovora": true,
+        "pitanje": "U narodu se kaže da mačka ima koliko života?",
+        "odgovor": "9"
     }
 ]

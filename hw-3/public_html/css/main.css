@@ -28,3 +28,9 @@ body {
 .pocetak .form-control:focus {
   z-index: 2;
 }
+
+#tabela {
+    width: 25%;
+    max-width: 320px;
+    margin: auto;
+}
